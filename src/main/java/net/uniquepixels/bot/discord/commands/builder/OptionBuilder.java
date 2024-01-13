@@ -1,4 +1,4 @@
-package net.uniquepixels.bot.discord.builder.commands;
+package net.uniquepixels.bot.discord.commands.builder;
 
 import net.dv8tion.jda.api.interactions.commands.OptionType;
 import net.dv8tion.jda.api.interactions.commands.build.OptionData;
