@@ -31,3 +31,25 @@ dependencies {
     // OkHttp Client
     implementation("com.squareup.okhttp3:okhttp:4.12.0") // https://square.github.io/okhttp/
 }
+
+tasks {
+
+    java {
+        toolchain {
+            languageVersion.set(JavaLanguageVersion.of(17))
+        }
+    }
+
+    withType<JavaCompile> {
+        options.encoding = Charsets.UTF_8.name()
+        options.release.set(17)
+    }
+
+    withType<Javadoc> {
+        options.encoding = Charsets.UTF_8.name()
+    }
+
+    withType<ProcessResources> {
+        filteringCharset = Charsets.UTF_8.name()
+    }
+}
