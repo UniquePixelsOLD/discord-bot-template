@@ -23,7 +23,7 @@ repositories {
 dependencies {
 
     // Java Discord Application
-    implementation("net.dv8tion:JDA:5.0.0-beta.19") // https://github.com/discord-jda/JDA?tab=readme-ov-file#documentation
+    implementation("net.dv8tion:JDA:5.0.0-beta.20") // https://github.com/discord-jda/JDA?tab=readme-ov-file#documentation
 
     // MongoDB Reactive Streams
     implementation("org.mongodb:mongodb-driver-reactivestreams:4.11.0") // https://mongodb.github.io/mongo-java-driver/4.11/driver-reactive/tutorials/
